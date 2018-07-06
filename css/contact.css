@@ -1,0 +1,240 @@
+/*==============共通部分===============*/
+
+/*@font-face {
+  font-family: 'yomogifont';
+  src: url('/yomogifont.otf');
+}*/
+
+p, td, tr, .nav-hiragana, .h2-japanese, li {
+  font-family: "ヒラギノ丸ゴ ProN W4","Hiragino Maru Gothic ProN", 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, body, li {
+  line-height: 1.77;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FAD7E0;
+}
+
+.top-bar {
+  height: 5px;
+  background-color: #FF9FC7;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.box-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 768px){
+  .box-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .col-sm-1 {
+  min-height: 0px;
+  }
+}
+
+.col-sm-5 {
+  padding: 0px;
+}
+
+.col-sm-4, .col-sm-6 {
+  padding: 0px;
+}
+
+.box-border {
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/*===============title===============*/
+
+
+.top-head {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .top-head {
+    height: 150px;
+    margin-bottom: 0px;
+    box-shadow: none;
+    border-bottom: solid 2px #DDDDDD;
+  }
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.logo {
+  margin-top: 10px;
+  height: 80px;
+  width: 240px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 768px){
+  .logo {
+    height: 70px;
+    width: 210px;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .title {
+  text-align: center;
+  }
+}
+
+
+/*================navigation===============*/
+
+
+.navs {
+  padding-top: 24px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px){
+  .navs {
+    padding-top: 10px;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FF9FC7;
+}
+
+.nav {
+  padding: 0px;
+  border-right: dotted 2px #DDDDDD;
+  line-height: 30%;
+  display: block;
+}
+
+.first-nav {
+  border-left: dotted 2px #DDDDDD;
+}
+
+.nav-eigo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px){
+  .nav-eigo {
+    font-size: 14px;
+  }
+}
+
+.nav-hiragana {
+  font-size: 10px;
+  color: #777777;
+}
+
+.top {
+  color: #FFCCA1;
+}
+
+.profile {
+  color: #A4E7FF;
+}
+
+.video {
+  color: #A4BAFF;
+}
+
+.contact {
+  color: #9CE7C5;
+}
+
+
+/*===============footer===============*/
+
+.sns {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .sns {
+    margin-top: 10px;
+  }
+}
+
+.sns-icon {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.grow {
+  -webkit-transition:0.2s ease-in-out;
+  -moz-transition:0.2s ease-in-out;
+  -ms-transition:0.2s ease-in-out;
+  -o-transition:0.2s ease-in-out;
+  transition:0.2s ease-in-out;
+}
+
+.grow:hover {
+  -webkit-transform:scale(1.2,1.2);
+  -moz-transform:scale(1.2,1.2);
+  -ms-transform:scale(1.2,1.2);
+  -o-transform:scale(1.2,1.2);
+  transform:scale(1.2,1.2);
+}
+
+footer {
+  background-color: #FF9FC7;
+  color: #FBFBF9;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px){
+  footer {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}
+
+
+/*==========form==========*/
+
+
+.form {
+  text-align: center;
+}
+
+.form iframe {
+  max-width: 100% !important;
+}
